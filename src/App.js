@@ -1,10 +1,10 @@
 import "./App.css";
-
+import Navigate from "./Routers/Navigate";
 function App() {
   return (
-    <div className="App">
-      <h1>Hotel Resort</h1>
-    </div>
+    <>
+      <Navigate />
+    </>
   );
 }
 
